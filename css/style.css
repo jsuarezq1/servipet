@@ -80,3 +80,48 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
+.productos {
+    margin-top: 3rem;
+    text-align: center;
+}
+.productos h2 {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+ul li {
+    display: inline;
+    padding-right: 15px;
+}
+li {
+    text-align: center;
+}
+h3 {
+    display: block;
+    position: relative;
+    text-align: center;
+
+}
+.comederos h2 {
+    width: 50%;
+    color: var(--tercer-color);
+    background-color: var(--cuarto-color);
+    padding: 8px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 100;
+    border-radius: 10px;
+}
+.comederos h3 {
+    background-color: var(--segundo-color);
+    color: var(--cuarto-color);
+    height: 50px;
+    width: 192px;
+    border-color: transparent;
+    box-shadow: 1px 1px 10px 1px var(--tercer-color);
+    padding-top: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
